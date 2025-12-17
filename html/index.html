@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Table Top Cafe</title>
+
+        <!-- CSS Style Sheets -->
+            <link rel="stylesheet" type="text/css" href="..\css\normalize.css">
+    	 	<link rel="stylesheet" type="text/css" href="..\css\layout.css">
+            <link rel="stylesheet" type="text/css" href="..\css\style.css"> 
+
+        <!-- Fonts -->
+            <!-- Italiana -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+            <!-- Montserrat -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Logo & clickable icons -->
+            <div class="container padding">
+                <div class="row justify_between align_items">
+                    <!-- Logo -->
+                    <div class="col col_lg_9 col_sm_12">
+                        <h1 class="h1_hidden">Table Top Board Game Cafe</h1>
+                        <a href="index.html"><img src="..\assets\iconography\ttbgc_logo_lg.svg" alt="Table Top Board Game Cafe Home" style="width: 350px;"></a>
+                    </div>
+                    
+                    <!-- Header Icons -->
+                     <div class="menu">
+                        <div class="justify_between">
+                            <a><img src="../assets/iconography/icon_search.svg" class="clickables"></a>
+                            <a><img src="../assets/iconography/icon_meeple.svg" class="clickables"></a>
+                            <a><img src="../assets/iconography/icon_cart.svg" class="clickables"></a>
+                        </div>
+
+                     </div>
+                </div>
+
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+
+                <!-- Nav Bar -->
+                 <div class="menu">
+                    <nav class="col col_lg_12 ">
+                        <ul class="nav_wrap ul_row padding">
+                            <li><a href="index.html" class="nav_link ">Home</a></li>
+                            <li><a href="menu.html" class="nav_link">Menu</a></li>
+                            <li><a href="index.html" class="nav_link">Shop</a></li>
+                            <li><a href="index.html" class="nav_link">Events</a></li>
+                            <li><a href="gamelibrary.html" class="nav_link">Game Library</a></li>
+                            <li><a href="faq.html" class="nav_link">About</a></li>
+                        </ul>
+                    </nav>
+
+                 </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero -->
+            <div class="padding">
+
+                <div class=" index_hero_carousel">
+                    <div class=" container padding">
+                        <div class="row justify_between">
+                            <img src="../assets/iconography/icon_left_arrow.svg">
+                            <div class="col col_lg_8 col_sm_12">
+                                <h2 class="h2_hero text_center">Drop In Gaming</h2>
+                                <p class="text_center" style="color: var(--colour_cream);">Come by the cafe to play games solo or with a friend and meet other friendly gamers <br><br> Tuesdays at 6:30pm and Sundays at 1pm</p>
+                            </div>
+                            <img src="../assets/iconography/icon_right_arrow.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dice Carousel -->
+                <div class="container padding row justify_center">
+                    <div class="col col_lg_4 col_sm_6">
+                        <div class="row justify_between">
+                            <img src="../assets/iconography/icon_dice1.svg" class="iconography">
+                            <img src="../assets/iconography/icon_dice2.svg" class="iconography">
+                            <img src="../assets/iconography/icon_dice3.svg" class="iconography">
+                            <img src="../assets/iconography/icon_dice4.svg" class="iconography">
+                            <img src="../assets/iconography/icon_dice5.svg" class="iconography">
+                            <img src="../assets/iconography/icon_dice6.svg" class="iconography">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="container padding">
+                <div class="row">
+                    <div class="col col_lg_4 col_sm_12">
+                        <div class="row justify_center">
+                            <img src="../assets/iconography/contact/icon_location.svg" class="iconography">
+                        </div>
+                        <h3 class="text_center">1. Check In</h3>
+                        <p class="text_center">Our staff will seat you at a table to kick off the fun!</p>
+                    </div>
+
+                    <div class="col col_lg_4 col_sm_12">
+                        <div class="row justify_center">
+                            <img src="../assets/iconography/icon_meeple.svg" class="iconography">
+                        </div>
+                        <h3 class="text_center">2. Eat, Drink, Play</h3>
+                        <p class="text_center">Pick out a game (or five). Our staff are happy to offer recommendation!</p>
+                    </div>
+                    
+                    <div class="col col_lg_4 col_sm_12">
+                        <div class="row justify_center">
+                            <img src="../assets/iconography/icon_clock.svg" class="iconography">
+                        </div>
+                        <h3 class="text_center">3. Pay at the End</h3>
+                        <p class="text_center">Everything goes on your tab, including the paying fee.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Swords -->
+            <div class="container padding row justify_center">
+                <img src="../assets/iconography/icon_swords.svg" style="width: 100%;">
+            </div>
+
+            <!-- Bored Board Section-->
+            <div class="container padding">
+                <!-- Section Header -->
+                <h2 class="text_center">Bored? Board!</h2>
+
+                <!-- Games -->
+                <div class="row justify_between">
+                    <!-- Hues & Clues -->
+                    <div class="col col_lg_4 col_sm_12index_game_wrap">
+                        <img src="../assets/games/game_hues&clues.png" class="index_games">
+                        <p class="p_game_index">3-10 players<br><br>$44.99</p>
+                    </div>
+
+                    <!-- Wavelength -->
+                    <div class="col col_lg_4 col_sm_12 index_game_wrap">
+                        <img src="../assets/games/game_wavelength.png" class="index_games">  
+                        <p class="p_game_index">2-12 players<br><br>$54.99</p>
+                    </div>
+                    
+                    <!-- Wingspan -->
+                    <div class="col col_lg_4 col_sm_12 index_game_wrap">
+                        <img src="../assets/games/game_wingspan.png" class="index_games">
+                        <p class="p_game_index">1-5 players<br><br>$79.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div class="container padding">
+                <h2 class="text_center">What's Going On?</h2>
+
+                <!-- BotCT -->
+                <div class="padding">
+                    <div class="row align_center justify_between">
+                        <div class="col col_lg_5 col_sm_6">
+                            <img src="../assets/games/game_bloodontheclocktower.png" class="index_games">
+                        </div>
+
+                        <div class="col col_lg_6 col_sm_6align_center games_wrap">
+                            <p class="p_games" style="color: var(--colour_latte);">Lie to your new 
+                                firends and old in the greatest social deduction game ever made. 
+                                In the spooky town of Ravenswood Bluff, work together to hunt the 
+                                demon, or become the evil in the night and tear the town apart!</p>
+                            <div class="row align_center row_gap">
+                                <p class="p_events">See More</p>
+                                <img src="../assets/iconography/icon_right_arrow.svg" style="height: 1rem;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Puzzle Battle -->
+                <div class="padding">
+                    <div class="row align_center justify_between">
+                        <div class="col col_lg_5 col_sm_6">
+                            <img src="../assets/images/image_puzzle_battle.png" class="index_games">
+                        </div>
+                        
+                        <div class="col col_lg_6 col_sm_6 align_center games_wrap">
+                            <p class="p_games" style="color: var(--colour_latte);">Table Top Cafe is hosting a frustratingly fun evening of puzzle madness. In teams of 3 to 4 players will all be given an identical 500 piece puzzle to complete as quickly as possible!</p>
+                                <div class="row align_center row_gap">
+                                <p class="p_events">See More</p>
+                                <img src="../assets/iconography/icon_right_arrow.svg" style="height: 1rem;">
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+
+            <!-- Join -->
+            <div class="container padding ">
+                <div class="row justify_center">
+                    <div class="col col_lg_8 col_lg_12">
+                        <div class="row justify_center">
+                            <h2 class="text_center">Join the Table Top Community!</h2>
+                        </div>
+                        <div class="row justify_center">
+                            <form class="contact_form">
+                                    <input type="text" name="email" placeholder="Enter your email here" class="input_field">
+                                    <label for="email" class="h2_selected input_label">Sign up for our newsletter for all the latest news at Table Top</label>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="padding" >
+            <div class="container row">
+                <div class="col col_lg_3 col_sm_6">
+                    <div class="row">
+                        <a><img src="../assets/iconography/ttbgc_logo_drk_sm.svg" class="footer_logo"></a>
+                    </div>
+                    <div class="row align_end row_gap">
+                        <a href="https://www.facebook.com/TableTopCafe/" ><img src="../assets/iconography/socials/icon_facebook.svg" class="iconography"></a>                        
+                        <a href="https://x.com/tabletopcafe?lang=en" ><img src="../assets/iconography/socials/icon_x.svg" class="iconography"></a>
+                        <a href="https://www.instagram.com/tabletopcafe/?hl=en" ><img src="../assets/iconography/socials/icon_instagram.svg" class="iconography"></a>
+                        <a href="https://www.tiktok.com/@tabletopcafeyeg" ><img src="../assets/iconography/socials/icon_tiktok.svg" class="iconography"></a>
+                    </div>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col col_lg_3 col_sm_12" > 
+                    <h3 class="h3_footer">Contact Us</h3>
+                    <div class="row footer_margin align_center">
+                        <img src="../assets/iconography/contact/icon_phone.svg" class="footer_icons">
+                        <p class="p_footer "> (587)524-5323</p>
+                    </div>
+
+                    <div class="row footer_margin align_center row_gap">
+                        <div class="row align_center">
+                            <img src="../assets/iconography/contact/icon_message.svg" class="footer_icons">
+                            <p class="p_footer">Contact Form</p>
+                        </div>
+                        <img src="../assets/iconography/icon_right_arrow_drk.svg" class="footer_icons">
+                    </div>
+                </div>
+
+                <!-- Location -->
+                <div class="col col_lg_3 col_sm_12">
+                    <div class="row row_gap align_center">
+                        <img src="../assets/iconography/contact/icon_location_drk.svg" class="footer_icons">
+                        <h3 class="h3_footer">Location</h3>
+                    </div>
+
+                    <div class="row footer_margin">
+                        <p class="p_footer">5716 75th ST NW<br>Edmonton, AB<br>Canada<br>T6E 5X6</p>
+                    </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="col col_lg_3 col_sm_12">
+                    <div class="row row_gap align_center">
+                        <img src="../assets/iconography/icon_clock_drk.svg" class="footer_icons">
+                        <h3 class="h3_footer">Hours</h3>
+                    </div>
+                    
+                    <div class="col footer_margin">
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Sunday</p>
+                            <p class="p_footer">11 am - 11 pm<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Monday</p>
+                            <p class="p_footer">5 pm - 11 pm<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Tuesday</p>
+                            <p class="p_footer">12 pm - 11 pm<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Wednesday</p>
+                            <p class="p_footer">12 pm - 11 pm<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Thursday</p>
+                            <p class="p_footer">12 pm - 11 pm<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Friday</p>
+                            <p class="p_footer">12 pm - 1 am<br></p>
+                        </div>
+                        <div class="row justify_between">
+                            <p class="p_footer p_footer_fine">Saturday</p>
+                            <p class="p_footer">11 am - 1 am<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container padding"> 
+                <div class="col col_lg_6 col_sm_12">
+                    <div class="row row_gap justify_between">
+                        <p class="p_footer_meta" style="font-weight: 600;">©2025 Table Top Cafe</p>
+                        <p class="p_footer_meta">All rights reserved</p>
+                        <p class="p_footer_meta">Privacy policy</p>
+                        <p class="p_footer_meta">Terms of service</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

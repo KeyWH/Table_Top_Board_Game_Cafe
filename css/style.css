@@ -1,0 +1,416 @@
+/* CSS Style Sheet for Table Top Cafe */
+
+/* Global Styling */
+
+    :root {
+        /* Colours */
+        --colour_coffee_bean: #1A130F;
+        --colour_latte: #B08A6D;
+        --colour_cream: #E3D2CA;
+
+        /* Fonts */
+        --font_heading: "Italiana", sans-serif;
+        --font_body: "Montserrat", sans-serif;
+    }
+
+    body {
+        background-color: var(--colour_coffee_bean);
+    }
+
+    footer {
+        background-color: var(--colour_latte);
+    }
+
+    .text_center {
+            text-align: center;
+        }
+
+
+
+/* Text Styling */
+
+    h1 {
+        font-family: var(--font_heading);
+        font-size: 96px;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 0px;
+        margin-bottom: 2rem;
+        color: #E3D2CA;
+        /* margin: 0% 0%; */
+    }
+
+    .h1_hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+
+    }
+
+    h2 {
+        font-family: var(--font_heading);
+        font-size: 3rem;
+        font-weight: 200;
+        color: var(--colour_latte);
+    }
+
+    .h2_mimick {
+        font-family: var(--font_heading);
+        font-size: 2rem;
+        font-weight: 200;
+        color: var(--colour_cream);
+
+    }
+
+    .h2_hero {
+        font-family: var(--font_heading);
+        font-size: 5rem;
+        font-weight: 200;
+        margin: 3rem 0rem;
+        color: var(--colour_cream);
+
+    }
+    .h2_logo {
+        font-family: var(--font_body);
+        color: var(--colour_latte);
+        font-size: 28px;
+        font-variant: small-caps;
+        font-weight: 400;
+    }
+
+    .h2_selector {
+        font-family: var(--font_heading);
+        color: var(--colour_latte);
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 20px 20px;
+    }
+
+    .h2_selected {
+        font-family: var(--font_heading);
+        color: var(--colour_cream);
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 20px 20px;
+        text-transform: none;
+    }
+
+    h3 {
+        font-family: var(--font_body);
+        color: var(--colour_latte);
+        font-size: 1.4rem;
+        font-kerning: 10%;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+
+    .h3_footer {
+        color: var(--colour_coffee_bean);
+    }
+
+    p {
+    font-family: var(--font_body);
+    font-size: 1rem;
+    font-style: normal;
+    color: var(--colour_latte);
+    }
+
+    .p_con_text {
+        font-family: var(--font_body);
+        color: var(--colour_cream);
+        font-size: 1.1rem;
+        font-weight: 300;
+        font-kerning: 15%;
+        text-transform: uppercase;
+    } 
+
+    .p_game_index {
+        font-family: var(--font_body);
+        font-size: 1.1rem;
+        font-weight: 300rem;
+        color: var(--colour_cream);
+
+    }
+
+    .p_games {
+        font-family: var(--font_body);
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-variant: small-caps;
+        color: var(--colour_latte);
+    }
+
+    .p_events {
+        font-family: var(--font_body);
+        font-size: 1.3rem;
+        font-variant: small-caps;
+        color: var(--colour_cream);
+    }
+
+    .p_footer {
+        font-family: var(--font_body);
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--colour_coffee_bean);
+        margin: 5px;
+    }
+
+    .p_footer_fine {
+        font-weight: 400;
+    }
+
+    .p_footer_meta {
+        font-family: var(--font_body);
+        font-variant: small-caps;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: var(--colour_coffee_bean);
+    } 
+
+    .p_menu {
+        font-family: var(--font_body);
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--colour_cream);
+    }
+
+/* Header Styling */
+    .clickables {
+        max-height: 2rem;
+        justify-content: space-between;
+        padding: 40px 20px 20px 20px;
+    }
+
+/* Nav Bar Styling */
+    .ul_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .nav_link {
+        text-decoration: none;
+        font-family: var(--font_body);
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: var(--colour_latte);
+    }
+
+    .nav_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 20px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+/* Footer Styling */
+    .footer_margin {
+        padding: 0%;
+        margin: 0px 10px;
+    }
+
+    .footer_logo {
+        max-width: 7rem;
+        margin: 20px 0px;
+    }
+
+    .footer_icons {
+        max-height: 1.2rem;
+    }
+
+    /* Hero styling */
+        .index_hero_carousel {
+            background-image: url(../assets/images/image_dropin.png);
+            /* max-width: 100%; */
+            max-height: 50vh;
+            background-size: cover;
+        }
+
+        .gl_hero {
+            background-image: url(../assets/images/image_gameslibrary.png);
+            /* max-width: 100%; */
+            max-height: 50vh;
+            background-size: cover;
+        }
+
+        .menu_hero {
+            background-image: url(../assets/images/image_menu.png);
+            /* max-width: 100%; */
+            max-height: 50vh;
+            background-size: cover;
+        }
+
+        .faq_hero {
+            background-image: url(../assets/images/image_faq.png);
+            /* max-width: 100%; */
+            max-height: 50vh;
+            background-size: cover;
+        }
+
+
+    /* Game Library styling */
+        .game_grid {
+            display: grid;
+            grid-template: 1fr / repeat(5, 1fr);
+            align-items: start;
+            padding: 20px 0px;
+            gap: 32px;
+        }
+
+        .span_2_col {
+            grid-row: 1 / span  2;
+        }
+
+        .span_4_row {
+            grid-column: 2 / span 4;
+        }
+
+        .game_image {
+            /* object-fit: cover; */
+            max-height: 40vh;
+            min-width: 320px;
+            /* justify-content: center; */
+            padding: auto auto;
+        }
+
+        .game_icons {
+            max-height: 3rem;
+        }
+
+    /* Menu Styling */
+        .menu_icon_wrap {
+            /* justify-items: start; */
+            align-items: start;
+        }
+
+        .menu_icon {
+            margin: 0px 20px;
+        }
+
+        .bar{
+            height: 2px;
+            border-width: 0;
+            background-color: var(--colour_cream);
+        }
+
+        .menu_item {
+            padding: 0px 40px;
+        }
+
+.input_label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.input_field {
+    background-color: var(--colour_coffee_bean);
+    border-style: solid;
+    border-color: var(--colour_cream);
+    width: 100%;
+    border: none;
+    height: 35px;
+    padding: 4px 8px;
+}
+
+
+.contact_form {
+    display: grid;
+    grid-template: 1fr / 1fr ;
+    align-items: end;
+    gap: 32px;
+}
+
+
+.iconography {
+    max-height: 2rem;
+}
+    
+.index_games {
+    object-fit: cover;
+    width: 100%;
+}
+
+.index_game_wrap {
+    padding: 20px 20px;
+}
+
+.selector_wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* Mobile breakpoint */
+@media screen and (max-width: 478px) {
+
+
+	h1 {
+		font-size: 56px;
+	}
+
+	h2 {
+		font-size: 44px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.cta_wrap {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+	.hero_icon {
+		width: 40%;
+		right: -20%;
+		top: -12%;
+	}
+
+	.newsletter_form {
+		display: grid;
+		grid-template: 1fr / 1fr;
+		gap: 32px;
+		align-items: start;
+	}
+
+	.input_field {
+		width: 100%;
+	}
+
+    .footer_meta {
+        display: none;
+    }
+
+    .meta_sm {
+        display: contents;
+        padding-left: 0px;
+    }
+
+
+}
